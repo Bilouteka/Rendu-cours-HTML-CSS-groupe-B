@@ -1,0 +1,16 @@
+.presentation-contenu {
+  display: flex;
+}
+
+.bloc-1 {
+  height: 100px;
+  width: calc(100% / 3);
+}
+.bloc-2 {
+  height: 150px;
+  width: calc(100% / 3);
+}
+.bloc-3 {
+  height: 75px;
+  width: calc(100% / 3);
+}

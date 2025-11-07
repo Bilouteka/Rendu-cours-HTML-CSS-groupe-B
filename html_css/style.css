@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*--------T-E-X-T--------------------------------------------------------------------------------------------*/
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+body {
+  color: green;
+  background-color: #ffec99;
+}
+.Titre {
+  font-family: "Carter One", sans-serif;
+  text-align: center;
+  font-size: 120px;
+  color: green;
+  margin: auto;
+}
+
+.Titre:hover {
+  color: #1b4623;
+}
+
+.bloc_mid {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  border-radius: 20px;
+  border: 12px solid #40c057;
+  font-size: 22px;
+  width: 90%;
+  height: 2000px;
+  background-color: #69db7c;
+  color: #caf0ff;
+}
+
+.bloc_bas {
+  position: absolute;
+  top: 2900px;
+  border-radius: 20px;
+  border: 10px solid #40c057;
+  font-size: 22px;
+  width: 100%;
+  height: 300px;
+  background-color: #2f9e44;
+  color: #caf0ff;
+}
+
+.pasintrotext {
+  font-size: large;
+  color: blue;
+}
+.finintrotext {
+  font-size: medium;
+  color: goldenrod;
+  padding-bottom: 15%;
+  font: bolder;
+}
+
+.Fredou {
+  font-size: 40px;
+  font-family: "Carter One", system-ui;
+  color: #1b4623;
+  position: absolute;
+  top: 920px;
+  left: 600px;
+}
+
+.Daphnou {
+  font-size: 40px;
+  font-family: "Carter One", system-ui;
+  color: #1b4623;
+  position: absolute;
+  top: 920px;
+  left: 1460px;
+}
+
+.Velmou {
+  font-size: 40px;
+  font-family: "Carter One", system-ui;
+  color: #1b4623;
+  position: absolute;
+  top: 1420px;
+  left: 1460px;
+}
+
+.Sammou {
+  font-size: 40px;
+  font-family: "Carter One", system-ui;
+  color: #1b4623;
+  position: absolute;
+  top: 1420px;
+  left: 600px;
+}
+
+.Scoobou {
+  font-size: 40px;
+  font-family: "Carter One", system-ui;
+  color: #1b4623;
+  position: absolute;
+  top: 1920px;
+  left: 600px;
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*------I-C-O-N-I-C---------------------------------------------------------------------------------------*/
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.Icon {
+  display: flex;
+  align-items: center;
+  justify-items: space-evenly;
+}
+
+.Fred {
+  cursor: pointer;
+  box-shadow: 5px 5px 8px #1b4623;
+  z-index: 1;
+  position: absolute;
+  top: 900px;
+  left: 200px;
+  border-radius: 20px;
+  border: 12px solid #39a24c;
+  font-size: 22px;
+  width: 18%;
+  height: 350px;
+  background-color: #40c057;
+  background-image: url(Image/Fred_preview_rev_1.png);
+  background-size: cover;
+}
+
+.Daphne {
+  cursor: pointer;
+  box-shadow: 5px 5px 8px #1b4623;
+  z-index: 1;
+  position: absolute;
+  top: 900px;
+  left: 1060px;
+  border-radius: 20px;
+  border: 12px solid #39a24c;
+  font-size: 22px;
+  width: 18%;
+  height: 350px;
+  background-color: #40c057;
+  color: #caf0ff;
+  padding: 5px;
+  background-image: url(Image/Daphne_preview_rev_1.png);
+  background-size: cover;
+}
+
+.Sammy {
+  cursor: pointer;
+  box-shadow: 5px 5px 8px #1b4623;
+  z-index: 1;
+  position: absolute;
+  top: 1400px;
+  left: 200px;
+  border-radius: 20px;
+  border: 12px solid #39a24c;
+  font-size: 22px;
+  width: 18%;
+  height: 350px;
+  background-color: #40c057;
+  color: #caf0ff;
+  padding: 5px;
+  background-image: url(Image/Sammy_preview_rev_1.png);
+  background-size: cover;
+}
+
+.Velma {
+  cursor: pointer;
+  box-shadow: 5px 5px 8px #1b4623;
+  z-index: 1;
+  position: absolute;
+  top: 1400px;
+  left: 1060px;
+  border-radius: 20px;
+  border: 12px solid #39a24c;
+  font-size: 22px;
+  width: 18%;
+  height: 350px;
+  background-color: #40c057;
+  color: #caf0ff;
+  padding: 5px;
+  background-image: url(Image/Velma_preview_rev_1.png);
+  background-size: cover;
+}
+
+.Scooby {
+  cursor: pointer;
+  box-shadow: 5px 5px 8px #1b4623;
+  z-index: 1;
+  position: absolute;
+  top: 1900px;
+  left: 200px;
+  border-radius: 20px;
+  border: 12px solid #39a24c;
+  font-size: 22px;
+  width: 18%;
+  height: 350px;
+  background-color: #40c057;
+  color: #caf0ff;
+  padding: 5px;
+  background-image: url(Image/Scooby_preview_rev_1.png);
+  background-size: cover;
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-------I-M-A-G-E-S---------------------------------------------------------------------------------------------*/
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-items: space-evenly;
+}
+.james_bond {
+  position: absolute;
+  top: 400px;
+  left: 1648px;
+}
+.groupe {
+  z-index: 1;
+  position: absolute;
+  top: 2450px;
+  left: 300px;
+}
+.tintin {
+  position: absolute;
+  top: 2680px;
+  left: 1648px;
+}
